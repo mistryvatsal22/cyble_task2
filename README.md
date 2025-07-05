@@ -109,45 +109,9 @@ Logs line number on failure
  
  ✅OUTPUT :
 
-mysql> show databases;
-+--------------------+
-| Database           |
-+--------------------+
-| coll               |
-| college            |
-| information_schema |
-| mysql              |
-| ndjsondb           |
-| performance_schema |
-| sys                |
-| vatsal             |
-| xyz_company        |
-+--------------------+
-9 rows in set (0.01 sec)
+![image](https://github.com/user-attachments/assets/dd4355ad-08a5-4907-8028-61e6bc13c127)
+![image](https://github.com/user-attachments/assets/8feb4895-8c74-4799-aea3-71e8792e620c)
 
-mysql> use ndjsondb
-Database changed
-mysql> show tables;
-Empty set (0.02 sec)
 
-mysql> exit
-Bye
-PS C:\Users\vatsa\Documents\Python\ndjson_mysql_project> python .\main.py
-[Main] Ensuring table exists...
-[Main] Table check/creation complete.
-[Worker 1] Starting DB worker thread.
-[Worker 2] Starting DB worker thread.
-[Main] Reading file: C:/Users/vatsa/Documents/Python/ndjson_mysql_project/sample_ndjson.txt
-[Main] Queued final batch of 101 records.
-[Main] Finished reading file. Total records queued: 101
-[Main] Stop signals sent to workers.
-[Worker 1] Received stop signal. Exiting.
-[Worker 1] Connection closed.
-[Worker 2] Inserted batch of 101 records.
-[Worker 2] Received stop signal. Exiting.
-[Main] All batches processed.
-[Worker 2] Connection closed.
-✅ All data inserted.
-PS C:\Users\vatsa\Documents\Python\ndjson_mysql_project>
 
 ![image](https://github.com/user-attachments/assets/12838b56-6061-470a-b99f-733127c6cc53)
