@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/12838b56-6061-470a-b99f-733127c6cc53)# 🗃️ NDJSON to MySQL Data Loader with Multithreading
+# 🗃️ NDJSON to MySQL Data Loader with Multithreading
 
 This project is designed to **efficiently import large NDJSON files into a MySQL database** using Python. It uses **multithreading and batch processing** to maximize performance and system resource usage. This is especially useful for large-scale enterprise applications where speed, reliability, and fault tolerance are crucial.
 
@@ -150,4 +150,4 @@ PS C:\Users\vatsa\Documents\Python\ndjson_mysql_project> python .\main.py
 ✅ All data inserted.
 PS C:\Users\vatsa\Documents\Python\ndjson_mysql_project>
 
-
+![image](https://github.com/user-attachments/assets/12838b56-6061-470a-b99f-733127c6cc53)
